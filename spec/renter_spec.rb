@@ -2,7 +2,7 @@ require 'rspec'
 require './lib/renter'
 
 RSpec.describe Renter do
- describe 'intantiation' do
+ describe 'instantiation' do
    it 'exists' do
      renter = Renter.new("Patrick Star", "4242424242424242")
 

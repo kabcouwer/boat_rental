@@ -3,7 +3,7 @@ require './lib/boat'
 
 
 RSpec.describe Boat do
- describe 'intantiation' do
+ describe 'instantiation' do
    it 'exists' do
      kayak = Boat.new(:kayak, 20)
 
